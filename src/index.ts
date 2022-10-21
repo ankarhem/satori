@@ -34,7 +34,9 @@ interface ResponseData {
   errors?: any[];
 }
 
-app.get("/", async (req, res) => {
+app.use('/__healthcheck', (_, res) => res.status(200).send('OK'))
+
+app.use("/", async (req, res) => {
   const { html: htmlString } = req.query;
 
   if (!htmlString || typeof htmlString !== "string") {
@@ -61,7 +63,7 @@ app.get("/", async (req, res) => {
   res.status(200).send(svg);
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3002;
 app.listen(PORT, () => {
   console.log(`Server is listening on port ${PORT}`);
 });
