@@ -1,0 +1,93 @@
+trigger:
+  branches:
+    include:
+      - main
+      - '*'
+  paths:
+    exclude:
+      - '.ci'
+
+variables:
+  - group: common-deployment
+  - name: team
+    value: zen
+  - name: applicationName
+    value: satori
+  - name: dockerfile
+    value: '**/Dockerfile'
+  - name: isMain
+    value: $[eq(variables['Build.SourceBranchName'], 'main')]
+  - name: containerRegistry
+    value: crjetshop
+
+pool:
+  name: vmss-ubuntu-2004
+
+resources:
+  repositories:
+    - repository: templates
+      type: git
+      name: Devops/azure-devops-templates
+
+stages:
+  - stage: build
+    jobs:
+      - template: templates/jobs/job-build-and-push-docker-frontend.yaml@templates
+        parameters:
+          repository: '$(team)/$(applicationName)'
+          containerRegistry: '$(containerRegistry)'
+          dockerfile: $(dockerfile)
+          buildContext: '**/..'
+
+  ## Deploy feature branch upon creation of branch
+  - stage: deploy_feature_branch
+    dependsOn: build
+    condition: and(succeeded(), eq(variables.isMain, false))
+    jobs:
+      - template: templates/jobs/job-update-git-configuration-repo-branch.yaml@templates
+        parameters:
+          environment: test
+          applicationName: $(applicationName)
+          team: $(team)
+      - job: sync_app_of_apps
+        dependsOn: update_configuration_repo
+        steps:
+          - template: templates/steps/argocd-sync.yaml@templates
+            parameters:
+              password: $(ARGOCD_PASSWORD)
+              server: $(ARGOCD_SERVER)
+              application: $(team)-apps
+              wait_args: '--operation'
+      - job: sync_in_argocd
+        dependsOn: sync_app_of_apps
+        steps:
+          - template: templates/steps/get-branch-name.yaml@templates
+          - template: templates/steps/argocd-sync.yaml@templates
+            parameters:
+              password: $(ARGOCD_PASSWORD)
+              server: $(ARGOCD_SERVER)
+              application: $(applicationName)-$(branchName)
+              timeout: '240'
+          - script: |
+              echo https://$(applicationName)-$(branchName).ci.jetshopcloud.io
+            displayName: 'Feature branch url'
+
+  ## Deploy to test after build succeeded and that it is master. Not pull request.
+  - stage: deploy_to_test
+    dependsOn: build
+    condition: and(succeeded(), eq(variables.isMain, true), ne(variables['Build.Reason'], 'PullRequest'))
+    jobs:
+      - template: templates/jobs/job-update-git-configuration-repo-v2.yaml@templates
+        parameters:
+          environment: test
+          applicationName: $(applicationName)
+          team: $(team)
+      - job: sync_in_argocd
+        dependsOn: update_configuration_repo
+        steps:
+          - template: templates/steps/argocd-sync.yaml@templates
+            parameters:
+              password: $(ARGOCD_PASSWORD)
+              server: $(ARGOCD_SERVER)
+              application: $(applicationName)-test
+              timeout: '240'

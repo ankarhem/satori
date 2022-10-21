@@ -1,4 +1,4 @@
-lockfileVersion: 5.4
+lockfileVersion: 5.3
 
 specifiers:
   '@jetshop/core': ^5.14.1
@@ -24,7 +24,7 @@ devDependencies:
   '@jetshop/core': 5.14.1
   '@types/express': 4.17.14
   nodemon: 2.0.20
-  ts-node: 10.9.1_lw7q66ikwuedwcorwkk4v6trsa
+  ts-node: 10.9.1_5dbf0f790ab5083b09d1b295cafa7190
   typescript: 4.8.4
   vite: 3.1.8
 
@@ -38,7 +38,7 @@ packages:
       '@jridgewell/trace-mapping': 0.3.9
     dev: false
 
-  /@apollo/react-common/3.1.4_tsy72xpn4dkdonpvrvxj5m7lqq:
+  /@apollo/react-common/3.1.4_9cb1fd5dede0d43735f58d6e9eb3eb84:
     resolution: {integrity: sha512-X5Kyro73bthWSCBJUC5XYQqMnG0dLWuDZmVkzog9dynovhfiVCV4kPSdgSIkqnb++cwCzOVuQ4rDKVwo2XRzQA==}
     peerDependencies:
       '@types/react': ^16.8.0
@@ -54,7 +54,7 @@ packages:
       tslib: 1.14.1
     dev: true
 
-  /@apollo/react-components/3.1.5_aovhelkvnfiuasgnuyk2zhqvni:
+  /@apollo/react-components/3.1.5_03aa722d5569514048cda615ac9e156a:
     resolution: {integrity: sha512-c82VyUuE9VBnJB7bnX+3dmwpIPMhyjMwyoSLyQWPHxz8jK4ak30XszJtqFf4eC4hwvvLYa+Ou6X73Q8V8e2/jg==}
     peerDependencies:
       '@types/react': ^16.8.0
@@ -66,8 +66,8 @@ packages:
       react: ^16.8.0
       react-dom: ^16.8.0
     dependencies:
-      '@apollo/react-common': 3.1.4_tsy72xpn4dkdonpvrvxj5m7lqq
-      '@apollo/react-hooks': 3.1.5_tsy72xpn4dkdonpvrvxj5m7lqq
+      '@apollo/react-common': 3.1.4_9cb1fd5dede0d43735f58d6e9eb3eb84
+      '@apollo/react-hooks': 3.1.5_9cb1fd5dede0d43735f58d6e9eb3eb84
       apollo-cache: 1.3.5_graphql@14.7.0
       apollo-client: 2.6.10_graphql@14.7.0
       apollo-link: 1.2.14_graphql@14.7.0
@@ -78,7 +78,7 @@ packages:
       tslib: 1.14.1
     dev: true
 
-  /@apollo/react-hoc/3.1.5_aovhelkvnfiuasgnuyk2zhqvni:
+  /@apollo/react-hoc/3.1.5_03aa722d5569514048cda615ac9e156a:
     resolution: {integrity: sha512-jlZ2pvEnRevLa54H563BU0/xrYSgWQ72GksarxUzCHQW85nmn9wQln0kLBX7Ua7SBt9WgiuYQXQVechaaCulfQ==}
     peerDependencies:
       '@types/react': ^16.8.0
@@ -87,8 +87,8 @@ packages:
       react: ^16.8.0
       react-dom: ^16.8.0
     dependencies:
-      '@apollo/react-common': 3.1.4_tsy72xpn4dkdonpvrvxj5m7lqq
-      '@apollo/react-components': 3.1.5_aovhelkvnfiuasgnuyk2zhqvni
+      '@apollo/react-common': 3.1.4_9cb1fd5dede0d43735f58d6e9eb3eb84
+      '@apollo/react-components': 3.1.5_03aa722d5569514048cda615ac9e156a
       apollo-client: 2.6.10_graphql@14.7.0
       graphql: 14.7.0
       hoist-non-react-statics: 3.3.2
@@ -100,7 +100,7 @@ packages:
       - apollo-utilities
     dev: true
 
-  /@apollo/react-hooks/3.1.5_tsy72xpn4dkdonpvrvxj5m7lqq:
+  /@apollo/react-hooks/3.1.5_9cb1fd5dede0d43735f58d6e9eb3eb84:
     resolution: {integrity: sha512-y0CJ393DLxIIkksRup4nt+vSjxalbZBXnnXxYbviq/woj+zKa431zy0yT4LqyRKpFy9ahMIwxBnBwfwIoupqLQ==}
     peerDependencies:
       '@types/react': ^16.8.0
@@ -109,7 +109,7 @@ packages:
       react: ^16.8.0
       react-dom: ^16.8.0
     dependencies:
-      '@apollo/react-common': 3.1.4_tsy72xpn4dkdonpvrvxj5m7lqq
+      '@apollo/react-common': 3.1.4_9cb1fd5dede0d43735f58d6e9eb3eb84
       '@wry/equality': 0.1.11
       apollo-client: 2.6.10_graphql@14.7.0
       graphql: 14.7.0
@@ -119,14 +119,14 @@ packages:
       - apollo-utilities
     dev: true
 
-  /@apollo/react-ssr/3.1.5_tsy72xpn4dkdonpvrvxj5m7lqq:
+  /@apollo/react-ssr/3.1.5_9cb1fd5dede0d43735f58d6e9eb3eb84:
     resolution: {integrity: sha512-wuLPkKlctNn3u8EU8rlECyktpOUCeekFfb0KhIKknpGY6Lza2Qu0bThx7D9MIbVEzhKadNNrzLcpk0Y8/5UuWg==}
     peerDependencies:
       react: ^16.8.0
       react-dom: ^16.8.0
     dependencies:
-      '@apollo/react-common': 3.1.4_tsy72xpn4dkdonpvrvxj5m7lqq
-      '@apollo/react-hooks': 3.1.5_tsy72xpn4dkdonpvrvxj5m7lqq
+      '@apollo/react-common': 3.1.4_9cb1fd5dede0d43735f58d6e9eb3eb84
+      '@apollo/react-hooks': 3.1.5_9cb1fd5dede0d43735f58d6e9eb3eb84
       tslib: 1.14.1
     transitivePeerDependencies:
       - '@types/react'
@@ -135,14 +135,11 @@ packages:
       - graphql
     dev: true
 
-  /@apollographql/apollo-tools/0.3.7_graphql@14.7.0:
+  /@apollographql/apollo-tools/0.3.7:
     resolution: {integrity: sha512-+ertvzAwzkYmuUtT8zH3Zi6jPdyxZwOgnYaZHY7iLnMVJDhQKWlkyjLMF8wyzlPiEdDImVUMm5lOIBZo7LkGlg==}
     engines: {node: '>=8', npm: '>=6'}
-    peerDependencies:
-      graphql: ^14.2.1 || ^15.0.0
     dependencies:
       apollo-env: 0.5.1
-      graphql: 14.7.0
     transitivePeerDependencies:
       - encoding
     dev: true
@@ -437,6 +434,7 @@ packages:
     cpu: [arm]
     os: [android]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/linux-loong64/0.15.12:
@@ -445,6 +443,7 @@ packages:
     cpu: [loong64]
     os: [linux]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@graphql-tools/batch-delegate/7.0.2_graphql@14.7.0:
@@ -592,7 +591,7 @@ packages:
       react: ^16.9.0
       react-dom: ^16.9.0
     dependencies:
-      '@apollo/react-ssr': 3.1.5_tsy72xpn4dkdonpvrvxj5m7lqq
+      '@apollo/react-ssr': 3.1.5_9cb1fd5dede0d43735f58d6e9eb3eb84
       '@graphql-tools/delegate': 7.1.5_graphql@14.7.0
       '@graphql-tools/stitch': 7.5.3_graphql@14.7.0
       '@graphql-tools/wrap': 7.0.8_graphql@14.7.0
@@ -641,8 +640,8 @@ packages:
       node-fetch: 2.6.7
       prop-types: 15.8.1
       qs: 6.11.0
-      react-apollo: 3.1.5_aovhelkvnfiuasgnuyk2zhqvni
-      react-apollo-network-status: 4.0.1_4pww3vkixbrfbktg2v24fm4fae
+      react-apollo: 3.1.5_03aa722d5569514048cda615ac9e156a
+      react-apollo-network-status: 4.0.1_e3ed6dd548b86250aa66d575c2b38501
       react-cookie: 4.1.1
       react-helmet-async: 1.3.0
       react-media: 1.10.0
@@ -661,10 +660,8 @@ packages:
       xstate: 4.33.6
     transitivePeerDependencies:
       - '@types/react'
-      - bufferutil
       - encoding
       - supports-color
-      - utf-8-validate
     dev: true
 
   /@jridgewell/gen-mapping/0.1.1:
@@ -1209,10 +1206,8 @@ packages:
       async-retry: 1.3.3
       graphql-extensions: 0.7.7_graphql@14.7.0
     transitivePeerDependencies:
-      - bufferutil
       - encoding
       - graphql
-      - utf-8-validate
     dev: true
 
   /apollo-env/0.5.1:
@@ -1337,7 +1332,7 @@ packages:
     peerDependencies:
       graphql: ^0.12.0 || ^0.13.0 || ^14.0.0
     dependencies:
-      '@apollographql/apollo-tools': 0.3.7_graphql@14.7.0
+      '@apollographql/apollo-tools': 0.3.7
       '@apollographql/graphql-playground-html': 1.6.24
       '@types/ws': 6.0.4
       apollo-cache-control: 0.7.5_graphql@14.7.0
@@ -1359,9 +1354,7 @@ packages:
       subscriptions-transport-ws: 0.9.19_graphql@14.7.0
       ws: 6.2.2
     transitivePeerDependencies:
-      - bufferutil
       - encoding
-      - utf-8-validate
     dev: true
 
   /apollo-server-env/2.4.0:
@@ -1403,10 +1396,7 @@ packages:
       graphql-tools: 4.0.8_graphql@14.7.0
       type-is: 1.6.18
     transitivePeerDependencies:
-      - bufferutil
       - encoding
-      - supports-color
-      - utf-8-validate
     dev: true
 
   /apollo-server-plugin-base/0.5.8_graphql@14.7.0:
@@ -1430,10 +1420,7 @@ packages:
       graphql-subscriptions: 1.2.1_graphql@14.7.0
       graphql-tools: 4.0.8_graphql@14.7.0
     transitivePeerDependencies:
-      - bufferutil
       - encoding
-      - supports-color
-      - utf-8-validate
     dev: true
 
   /apollo-tracing/0.7.4_graphql@14.7.0:
@@ -1542,8 +1529,6 @@ packages:
       raw-body: 2.5.1
       type-is: 1.6.18
       unpipe: 1.0.0
-    transitivePeerDependencies:
-      - supports-color
 
   /brace-expansion/1.1.11:
     resolution: {integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==}
@@ -1670,8 +1655,6 @@ packages:
       on-headers: 1.0.2
       safe-buffer: 5.1.2
       vary: 1.1.2
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /concat-map/0.0.1:
@@ -1761,24 +1744,13 @@ packages:
 
   /debug/2.6.9:
     resolution: {integrity: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
     dependencies:
       ms: 2.0.0
 
-  /debug/3.2.7_supports-color@5.5.0:
+  /debug/3.2.7:
     resolution: {integrity: sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
     dependencies:
       ms: 2.1.3
-      supports-color: 5.5.0
     dev: true
 
   /debug/4.3.4:
@@ -1916,6 +1888,7 @@ packages:
     cpu: [x64]
     os: [android]
     requiresBuild: true
+    dev: true
     optional: true
 
   /esbuild-android-arm64/0.15.12:
@@ -1924,6 +1897,7 @@ packages:
     cpu: [arm64]
     os: [android]
     requiresBuild: true
+    dev: true
     optional: true
 
   /esbuild-darwin-64/0.15.12:
@@ -1932,6 +1906,7 @@ packages:
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
+    dev: true
     optional: true
 
   /esbuild-darwin-arm64/0.15.12:
@@ -1940,6 +1915,7 @@ packages:
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
+    dev: true
     optional: true
 
   /esbuild-freebsd-64/0.15.12:
@@ -1948,6 +1924,7 @@ packages:
     cpu: [x64]
     os: [freebsd]
     requiresBuild: true
+    dev: true
     optional: true
 
   /esbuild-freebsd-arm64/0.15.12:
@@ -1956,6 +1933,7 @@ packages:
     cpu: [arm64]
     os: [freebsd]
     requiresBuild: true
+    dev: true
     optional: true
 
   /esbuild-linux-32/0.15.12:
@@ -1964,6 +1942,7 @@ packages:
     cpu: [ia32]
     os: [linux]
     requiresBuild: true
+    dev: true
     optional: true
 
   /esbuild-linux-64/0.15.12:
@@ -1972,6 +1951,7 @@ packages:
     cpu: [x64]
     os: [linux]
     requiresBuild: true
+    dev: true
     optional: true
 
   /esbuild-linux-arm/0.15.12:
@@ -1980,6 +1960,7 @@ packages:
     cpu: [arm]
     os: [linux]
     requiresBuild: true
+    dev: true
     optional: true
 
   /esbuild-linux-arm64/0.15.12:
@@ -1988,6 +1969,7 @@ packages:
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
+    dev: true
     optional: true
 
   /esbuild-linux-mips64le/0.15.12:
@@ -1996,6 +1978,7 @@ packages:
     cpu: [mips64el]
     os: [linux]
     requiresBuild: true
+    dev: true
     optional: true
 
   /esbuild-linux-ppc64le/0.15.12:
@@ -2004,6 +1987,7 @@ packages:
     cpu: [ppc64]
     os: [linux]
     requiresBuild: true
+    dev: true
     optional: true
 
   /esbuild-linux-riscv64/0.15.12:
@@ -2012,6 +1996,7 @@ packages:
     cpu: [riscv64]
     os: [linux]
     requiresBuild: true
+    dev: true
     optional: true
 
   /esbuild-linux-s390x/0.15.12:
@@ -2020,6 +2005,7 @@ packages:
     cpu: [s390x]
     os: [linux]
     requiresBuild: true
+    dev: true
     optional: true
 
   /esbuild-netbsd-64/0.15.12:
@@ -2028,6 +2014,7 @@ packages:
     cpu: [x64]
     os: [netbsd]
     requiresBuild: true
+    dev: true
     optional: true
 
   /esbuild-openbsd-64/0.15.12:
@@ -2036,6 +2023,7 @@ packages:
     cpu: [x64]
     os: [openbsd]
     requiresBuild: true
+    dev: true
     optional: true
 
   /esbuild-sunos-64/0.15.12:
@@ -2044,6 +2032,7 @@ packages:
     cpu: [x64]
     os: [sunos]
     requiresBuild: true
+    dev: true
     optional: true
 
   /esbuild-windows-32/0.15.12:
@@ -2052,6 +2041,7 @@ packages:
     cpu: [ia32]
     os: [win32]
     requiresBuild: true
+    dev: true
     optional: true
 
   /esbuild-windows-64/0.15.12:
@@ -2060,6 +2050,7 @@ packages:
     cpu: [x64]
     os: [win32]
     requiresBuild: true
+    dev: true
     optional: true
 
   /esbuild-windows-arm64/0.15.12:
@@ -2068,6 +2059,7 @@ packages:
     cpu: [arm64]
     os: [win32]
     requiresBuild: true
+    dev: true
     optional: true
 
   /esbuild/0.15.12:
@@ -2098,6 +2090,7 @@ packages:
       esbuild-windows-32: 0.15.12
       esbuild-windows-64: 0.15.12
       esbuild-windows-arm64: 0.15.12
+    dev: true
 
   /escalade/3.1.1:
     resolution: {integrity: sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==}
@@ -2173,8 +2166,6 @@ packages:
       type-is: 1.6.18
       utils-merge: 1.0.1
       vary: 1.1.2
-    transitivePeerDependencies:
-      - supports-color
 
   /fast-json-stable-stringify/2.1.0:
     resolution: {integrity: sha512-lhd/wF+Lk98HZoTCtlVraHtfh5XYijIjalXck7saUtuanSDyLMxnHhSXEDJqHxD7msR8D0uCmqlkwjCV8xvwHw==}
@@ -2202,8 +2193,6 @@ packages:
       parseurl: 1.3.3
       statuses: 2.0.1
       unpipe: 1.0.0
-    transitivePeerDependencies:
-      - supports-color
 
   /fontfaceobserver/2.3.0:
     resolution: {integrity: sha512-6FPvD/IVyT4ZlNe7Wcn5Fb/4ChigpucKYSvD6a+0iMoLn2inpo711eyIcKjmDtE5XNcgAkSH9uN/nfAeZzHEfg==}
@@ -2266,6 +2255,7 @@ packages:
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
     requiresBuild: true
+    dev: true
     optional: true
 
   /function-bind/1.1.1:
@@ -2324,7 +2314,7 @@ packages:
     peerDependencies:
       graphql: ^0.12.0 || ^0.13.0 || ^14.0.0
     dependencies:
-      '@apollographql/apollo-tools': 0.3.7_graphql@14.7.0
+      '@apollographql/apollo-tools': 0.3.7
       apollo-server-env: 2.4.0
       graphql: 14.7.0
     transitivePeerDependencies:
@@ -2540,6 +2530,7 @@ packages:
     resolution: {integrity: sha512-RRjxlvLDkD1YJwDbroBHMb+cukurkDWNyHx7D3oNB5x9rb5ogcksMC5wHCadcXoo67gVr/+3GFySh3134zi6rw==}
     dependencies:
       has: 1.0.3
+    dev: true
 
   /is-date-object/1.0.5:
     resolution: {integrity: sha512-9YQaSxsAiSwcvS33MBk3wTCVnWK+HhF8VZR2jRxehM16QcVOdHqPn4VPHmRK4lSr38n9JriurInLcP90xsYNfQ==}
@@ -2789,6 +2780,7 @@ packages:
     resolution: {integrity: sha512-MqBkQh/OHTS2egovRtLk45wEyNXwF+cokD+1YPf9u5VfJiRdAiRwB2froX5Co9Rh20xs4siNPm8naNotSD6RBw==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
+    dev: true
 
   /negotiator/0.6.3:
     resolution: {integrity: sha512-+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg==}
@@ -2823,7 +2815,7 @@ packages:
     hasBin: true
     dependencies:
       chokidar: 3.5.3
-      debug: 3.2.7_supports-color@5.5.0
+      debug: 3.2.7
       ignore-by-default: 1.0.1
       minimatch: 3.1.2
       pstree.remy: 1.1.8
@@ -2914,6 +2906,7 @@ packages:
 
   /path-parse/1.0.7:
     resolution: {integrity: sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==}
+    dev: true
 
   /path-to-regexp/0.1.7:
     resolution: {integrity: sha512-5DFkuoqlv1uYQKxy8omFBeJPQcdoE07Kv2sferDCrAq1ohOU+MSDswDIbnx3YAM60qIOnYa53wBhXW0EbMonrQ==}
@@ -2943,6 +2936,7 @@ packages:
       nanoid: 3.3.4
       picocolors: 1.0.0
       source-map-js: 1.0.2
+    dev: true
 
   /prop-types/15.8.1:
     resolution: {integrity: sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==}
@@ -3006,13 +3000,13 @@ packages:
       iconv-lite: 0.4.24
       unpipe: 1.0.0
 
-  /react-apollo-network-status/4.0.1_4pww3vkixbrfbktg2v24fm4fae:
+  /react-apollo-network-status/4.0.1_e3ed6dd548b86250aa66d575c2b38501:
     resolution: {integrity: sha512-AOhKMGpm+Lj+LwqOsK5c7ed1IKxR6QGz/PUn0tnJEdpnRHmXPpkq4J2qpag7ugLPO6KBsGAQSfiR+iaJ1cXJiA==}
     peerDependencies:
       graphql: ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0
       react: ^16.8.0
     dependencies:
-      '@apollo/react-common': 3.1.4_tsy72xpn4dkdonpvrvxj5m7lqq
+      '@apollo/react-common': 3.1.4_9cb1fd5dede0d43735f58d6e9eb3eb84
       apollo-link: 1.2.14_graphql@14.7.0
       apollo-link-http-common: 0.2.16_graphql@14.7.0
       apollo-utilities: 1.3.4_graphql@14.7.0
@@ -3022,7 +3016,7 @@ packages:
       - apollo-client
     dev: true
 
-  /react-apollo/3.1.5_aovhelkvnfiuasgnuyk2zhqvni:
+  /react-apollo/3.1.5_03aa722d5569514048cda615ac9e156a:
     resolution: {integrity: sha512-xOxMqxORps+WHrUYbjVHPliviomefOpu5Sh35oO3osuOyPTxvrljdfTLGCggMhcXBsDljtS5Oy4g+ijWg3D4JQ==}
     peerDependencies:
       '@types/react': ^16.8.0
@@ -3031,11 +3025,11 @@ packages:
       react: ^16.8.0
       react-dom: ^16.8.0
     dependencies:
-      '@apollo/react-common': 3.1.4_tsy72xpn4dkdonpvrvxj5m7lqq
-      '@apollo/react-components': 3.1.5_aovhelkvnfiuasgnuyk2zhqvni
-      '@apollo/react-hoc': 3.1.5_aovhelkvnfiuasgnuyk2zhqvni
-      '@apollo/react-hooks': 3.1.5_tsy72xpn4dkdonpvrvxj5m7lqq
-      '@apollo/react-ssr': 3.1.5_tsy72xpn4dkdonpvrvxj5m7lqq
+      '@apollo/react-common': 3.1.4_9cb1fd5dede0d43735f58d6e9eb3eb84
+      '@apollo/react-components': 3.1.5_03aa722d5569514048cda615ac9e156a
+      '@apollo/react-hoc': 3.1.5_03aa722d5569514048cda615ac9e156a
+      '@apollo/react-hooks': 3.1.5_9cb1fd5dede0d43735f58d6e9eb3eb84
+      '@apollo/react-ssr': 3.1.5_9cb1fd5dede0d43735f58d6e9eb3eb84
       apollo-client: 2.6.10_graphql@14.7.0
       graphql: 14.7.0
     transitivePeerDependencies:
@@ -3163,6 +3157,7 @@ packages:
       is-core-module: 2.11.0
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
+    dev: true
 
   /retry/0.13.1:
     resolution: {integrity: sha512-XQBQ3I8W1Cge0Seh+6gjj03LbmRFWuoszgK9ooCpwYIrhhoO80pfq4cUkU5DkknwfOfFteRwlZ56PYOGYyFWdg==}
@@ -3175,6 +3170,7 @@ packages:
     hasBin: true
     optionalDependencies:
       fsevents: 2.3.2
+    dev: true
 
   /rx/4.1.0:
     resolution: {integrity: sha512-CiaiuN6gapkdl+cZUr67W6I8jquN4lkak3vtIsIWCl4XIPP8ffsoyN6/+PuGXnQy8Cu8W2y9Xxh31Rq4M6wUug==}
@@ -3260,8 +3256,6 @@ packages:
       on-finished: 2.4.1
       range-parser: 1.2.1
       statuses: 2.0.1
-    transitivePeerDependencies:
-      - supports-color
 
   /serve-static/1.15.0:
     resolution: {integrity: sha512-XGuRDNjXUijsUL0vl6nSD7cwURuzEgglbOaFuZM9g3kwDXOWVTck0jLzjPzGD+TazWbboZYu52/9/XPdUgne9g==}
@@ -3271,8 +3265,6 @@ packages:
       escape-html: 1.0.3
       parseurl: 1.3.3
       send: 0.18.0
-    transitivePeerDependencies:
-      - supports-color
 
   /setprototypeof/1.2.0:
     resolution: {integrity: sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw==}
@@ -3306,6 +3298,7 @@ packages:
   /source-map-js/1.0.2:
     resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==}
     engines: {node: '>=0.10.0'}
+    dev: true
 
   /source-map-resolve/0.5.3:
     resolution: {integrity: sha512-Htz+RnsXWk5+P2slx5Jh3Q66vhQj1Cllm0zvnaY98+NFx+Dv2CF/f5O/t8x+KaNdrdIAsruNzoh/KpialbqAnw==}
@@ -3393,9 +3386,6 @@ packages:
       iterall: 1.3.0
       symbol-observable: 1.2.0
       ws: 6.2.2
-    transitivePeerDependencies:
-      - bufferutil
-      - utf-8-validate
     dev: true
 
   /supports-color/5.5.0:
@@ -3407,6 +3397,7 @@ packages:
   /supports-preserve-symlinks-flag/1.0.0:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
+    dev: true
 
   /svg-react-loader/0.4.6:
     resolution: {integrity: sha512-HVEypjWQsQuJdBIPzXGxpmQsQts7QwfQuYgK1rah6BVCMoLNSCh/ESKVNd7/tHq8DkWYHHTyaUMDA1FjqZYrgA==}
@@ -3474,7 +3465,7 @@ packages:
       tslib: 1.14.1
     dev: true
 
-  /ts-node/10.9.1_lw7q66ikwuedwcorwkk4v6trsa:
+  /ts-node/10.9.1_5dbf0f790ab5083b09d1b295cafa7190:
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -3683,6 +3674,7 @@ packages:
       rollup: 2.78.1
     optionalDependencies:
       fsevents: 2.3.2
+    dev: true
 
   /web-vitals-reporter/0.2.0:
     resolution: {integrity: sha512-s+2mb3vDd2GREaQjsWLX+3rHUMFrMjzPG5eHug8xQEtWPGaKsWn5IdK9x1HisSa0AZr+JR5Q1DaAbNeJcRE2CA==}
@@ -3717,14 +3709,6 @@ packages:
 
   /ws/6.2.2:
     resolution: {integrity: sha512-zmhltoSR8u1cnDsD43TX59mzoMZsLKqUweyYBAIvTngR3shc0W6aOZylZmq/7hqyVxPdi+5Ud2QInblgyE72fw==}
-    peerDependencies:
-      bufferutil: ^4.0.1
-      utf-8-validate: ^5.0.2
-    peerDependenciesMeta:
-      bufferutil:
-        optional: true
-      utf-8-validate:
-        optional: true
     dependencies:
       async-limiter: 1.0.1
     dev: true
